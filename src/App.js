@@ -10,6 +10,15 @@ function App() {
           <Landing />
           <Links />
         </div>
+        <div className="fixed bottom-3">
+          <a
+            href="/"
+            className="group text-gray-600 text-xl font-normal transition duration-300"
+          >
+            Mail<span className="text-gray-900 font-bold"> &#8599;</span>
+            <span className="link_underline"></span>
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -7,23 +7,32 @@ function Links() {
     <div className="text-lg lg:text-xl mx-auto flex-row flex p-12 space-x-4 md:space-x-12 lg:space-x-16">
       <div className="flex-row flex items-center gap-x-2">
         <FiGithub className="text-gray-900" />
-        <a className="font-light hover:underlined text-gray-600"
-        href="https://github.com/jayantdahiya">
+        <a
+          className="group font-light text-gray-600"
+          href="https://github.com/jayantdahiya"
+        >
           GitHub
+          <span className="link_underline"></span>
         </a>
       </div>
       <div className="flex-row flex items-center gap-x-2 ">
         <SiMedium className="text-gray-900" />
-        <a className="font-light hover:underlined text-gray-600"
-        href="https://medium.com/@jayantdahiya">
+        <a
+          className="group font-light text-gray-600"
+          href="https://medium.com/@jayantdahiya"
+        >
           Medium
+          <span className="link_underline"></span>
         </a>
       </div>
       <div className="flex-row flex items-center gap-x-2">
         <FiTwitter className="text-gray-900" />
-        <a className="font-light hover:underlined text-gray-600" 
-        href="https://twitter.com/DahiyaJayant">
+        <a
+          className="group font-light text-gray-600"
+          href="https://twitter.com/DahiyaJayant"
+        >
           Twitter
+          <span className="link_underline"></span>
         </a>
       </div>
     </div>
