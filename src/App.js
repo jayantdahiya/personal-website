@@ -12,8 +12,10 @@ function App() {
         </div>
         <div className="fixed bottom-3">
           <a
-            href="/"
+            href="mailto:jayantdahiyadev@gmail.com"
             className="group text-gray-600 text-xl font-normal transition duration-300"
+            target="_blank"
+            rel="noreferrer"
           >
             Mail<span className="text-gray-900 font-bold"> &#8599;</span>
             <span className="link_underline"></span>

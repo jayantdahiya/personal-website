@@ -10,6 +10,8 @@ function Links() {
         <a
           className="group font-light text-gray-600"
           href="https://github.com/jayantdahiya"
+          target="_blank"
+          rel="noreferrer"
         >
           GitHub
           <span className="link_underline"></span>
@@ -20,6 +22,8 @@ function Links() {
         <a
           className="group font-light text-gray-600"
           href="https://medium.com/@jayantdahiya"
+          target="_blank"
+          rel="noreferrer"
         >
           Medium
           <span className="link_underline"></span>
@@ -30,6 +34,8 @@ function Links() {
         <a
           className="group font-light text-gray-600"
           href="https://twitter.com/DahiyaJayant"
+          target="_blank"
+          rel="noreferrer"
         >
           Twitter
           <span className="link_underline"></span>
