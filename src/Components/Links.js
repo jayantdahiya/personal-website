@@ -4,20 +4,27 @@ import { SiMedium } from "react-icons/si";
 
 function Links() {
   return (
-    <div className="flex-row flex p-12 shrink gap-x-28">
+    <div className="text-lg lg:text-xl mx-auto flex-row flex p-12 space-x-4 md:space-x-12 lg:space-x-16">
       <div className="flex-row flex items-center gap-x-2">
-        <FiGithub className="text-2xl" />
-        <p className="text-2xl font-light">GitHub</p>
+        <FiGithub className="text-gray-900" />
+        <a className="font-light hover:underlined text-gray-600"
+        href="https://github.com/jayantdahiya">
+          GitHub
+        </a>
       </div>
-      <div className="flex-row flex items-center gap-x-2">
-        <SiMedium className="text-2xl" />
-        <a className="text-2xl font-light" href="/">
+      <div className="flex-row flex items-center gap-x-2 ">
+        <SiMedium className="text-gray-900" />
+        <a className="font-light hover:underlined text-gray-600"
+        href="https://medium.com/@jayantdahiya">
           Medium
         </a>
       </div>
       <div className="flex-row flex items-center gap-x-2">
-        <FiTwitter className="text-2xl" />
-        <p className="text-2xl font-light">Twitter</p>
+        <FiTwitter className="text-gray-900" />
+        <a className="font-light hover:underlined text-gray-600" 
+        href="https://twitter.com/DahiyaJayant">
+          Twitter
+        </a>
       </div>
     </div>
   );
