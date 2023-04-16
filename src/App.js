@@ -6,20 +6,9 @@ function App() {
   return (
     <div className="bg-gradient-to-b from-sky-400 to-sky-200 h-screen font-WorkSans">
       <div className="flex items-center h-screen flex-col bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 bg-gray-400">
-        <div className="w-screen lg:w-[40vw] mt-[10vh] lg:mt-[15vh]">
+        <div className="w-screen lg:w-[40vw] mt-[10vh] lg:mt-[15vh] max-h-[70vh]">
           <Landing />
           <Links />
-        </div>
-        <div className="fixed bottom-3">
-          <a
-            href="mailto:jayantdahiyadev@gmail.com"
-            className="group text-gray-600 text-xl font-normal transition duration-300"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Mail<span className="text-gray-900 font-bold"> &#8599;</span>
-            <span className="link_underline"></span>
-          </a>
         </div>
       </div>
     </div>
