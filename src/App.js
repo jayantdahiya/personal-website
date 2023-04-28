@@ -8,8 +8,8 @@ import { Stars } from "@react-three/drei";
 function App() {
   return (
     <div className="h-screen bg-black font-WorkSans">
-      <div className="absolute flex flex-col items-center h-screen bg-transparent backdrop-blur-lg">
-        <div className="w-screen lg:w-[40vw] mt-[10vh] lg:mt-[15vh] max-h-[70vh]">
+      <div className="absolute flex flex-col items-center transform -translate-x-1/2 -translate-y-1/2 bg-transparent backdrop-blur-lg top-1/2 left-1/2">
+        <div className="w-screen lg:w-[40vw] max-h-[70vh]">
           <Landing />
           <Links />
         </div>
