@@ -2,27 +2,27 @@ import React from "react";
 
 function Landing() {
   return (
-    <div className="mx-auto flex-col p-12 space-y-4 cursor-default">
-      <div className="justify-between flex-row flex">
+    <div className="flex-col p-12 mx-auto space-y-4 cursor-default">
+      <div className="flex flex-row justify-between">
         <div>
-          <p className="text-xl mx-auto font-normal lg:text-3xl text-gray-900">
+          <p className="mx-auto text-xl font-normal text-gray-100 lg:text-3xl">
             Jayant Dahiya
           </p>
         </div>
         <div>
           <a
             href="mailto:jayantdahiyadev@gmail.com"
-            className="group text-gray-600 text-xl font-normal transition duration-300"
+            className="text-xl font-normal text-gray-400 transition duration-300 group"
             target="_blank"
             rel="noreferrer"
           >
             mail
-            <span className="text-gray-900 font-bold"> &#8599;</span>
+            <span className="font-bold text-gray-100"> &#8599;</span>
             <span className="link_underline"></span>
           </a>
         </div>
       </div>
-      <p className="text-lg font-light lg:text-xl text-left lg:text-justify text-gray-600 p-1">
+      <p className="p-1 text-lg font-light text-left text-gray-400 lg:text-xl lg:text-justify">
         Hi I am Jayant. As a <span className="underlined">creator</span> who
         constantly <span className="underlined">questions reality</span>, I
         can't help but wonder if we're all just
