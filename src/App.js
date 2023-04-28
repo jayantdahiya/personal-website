@@ -4,6 +4,7 @@ import Landing from "./Components/Landing";
 
 import { Canvas } from "@react-three/fiber";
 import { Stars } from "@react-three/drei";
+import { CameraControls } from "@react-three/drei";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             fade
             speed={0.3}
           />
+          <CameraControls />
         </Canvas>
       </div>
     </div>
