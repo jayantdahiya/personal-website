@@ -1,4 +1,5 @@
 import React from "react";
+import Interact from "./Interact";
 
 function Landing() {
   return (
@@ -22,7 +23,7 @@ function Landing() {
           </a>
         </div>
       </div>
-      <p className="p-1 text-lg font-light text-left text-gray-400 lg:text-xl lg:text-justify">
+      <p className="p-1 text-lg font-light text-left text-gray-400 select-none lg:text-xl lg:text-justify">
         Hi I am Jayant. As a <span className="underlined">creator</span> who
         constantly <span className="underlined">questions reality</span>, I
         can't help but wonder if we're all just
