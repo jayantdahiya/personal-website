@@ -25,7 +25,7 @@ function Interact() {
         </svg>
       </div>
       <div className="pt-2 mx-auto">
-        <p className="text-xs text-gray-500">try clicking and dragging</p>
+        <p className="text-xs text-gray-400">try clicking and dragging</p>
       </div>
     </div>
   );

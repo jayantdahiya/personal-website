@@ -1,5 +1,4 @@
 import React from "react";
-import Interact from "./Interact";
 
 function Landing() {
   return (
@@ -13,7 +12,7 @@ function Landing() {
         <div>
           <a
             href="mailto:jayantdahiyadev@gmail.com"
-            className="text-xl font-normal text-gray-400 transition duration-300 group"
+            className="text-xl font-normal text-gray-400 transition duration-300 pointer-events-auto group"
             target="_blank"
             rel="noreferrer"
           >

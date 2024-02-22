@@ -4,7 +4,7 @@ import { Stars, CameraControls, Float } from '@react-three/drei'
 
 function Background() {
   return (
-    <div className="relative h-screen">
+    <div className="relative w-screen h-screen">
         <Canvas>
           <Float
             speed={2}
